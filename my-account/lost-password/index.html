@@ -14,6 +14,7 @@
 <link rel="stylesheet" id="wp-block-library-css" href="https://dcmaticshare.github.io/landelijke/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wc-block-vendors-style-css" href="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css" type="text/css" media="all">
 <link rel="stylesheet" id="wc-block-style-css" href="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="https://dcmaticshare.github.io/landelijke/wp-content/plugins/contact-form-7/includes/css/styles.css" type="text/css" media="all">
 <link rel="stylesheet" id="select2-css" href="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/css/select2.css" type="text/css" media="all">
 <style id="woocommerce-inline-inline-css" type="text/css">
 .woocommerce form .form-row .required { visibility: visible; }
@@ -23,15 +24,13 @@
 <link rel="stylesheet" id="flatsome-shop-css" href="https://dcmaticshare.github.io/landelijke/wp-content/themes/flatsome/assets/css/flatsome-shop.css" type="text/css" media="all">
 <link rel="stylesheet" id="flatsome-style-css" href="https://dcmaticshare.github.io/landelijke/wp-content/themes/flatsome/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="flatsome-googlefonts-css" href="//fonts.googleapis.com/css?family=Lato%3Aregular%2C700%2C400%2C700%7CDancing+Script%3Aregular%2C400&display=swap&ver=3.9" type="text/css" media="all">
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" id="zxcvbn-async-js-extra">
 /* <![CDATA[ */
 var _zxcvbnSettings = {"src":"https:\/\/dcmaticshare.github.io\/landelijke\/wp-includes\/js\/zxcvbn.min.js"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-includes/js/zxcvbn-async.min.js"></script>
-
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-includes/js/zxcvbn-async.min.js" id="zxcvbn-async-js"></script>
 
 
 
@@ -275,7 +274,7 @@ var _zxcvbnSettings = {"src":"https:\/\/dcmaticshare.github.io\/landelijke\/wp-i
 		<button type="submit" class="woocommerce-Button button" value="Wachtwoord opnieuw instellen">Wachtwoord opnieuw instellen</button>
 	</p>
 
-	<input type="hidden" id="woocommerce-lost-password-nonce" name="woocommerce-lost-password-nonce" value="776e48c96a"><input type="hidden" name="_wp_http_referer" value="/my-account/lost-password/">
+	<input type="hidden" id="woocommerce-lost-password-nonce" name="woocommerce-lost-password-nonce" value="979a28531b"><input type="hidden" name="_wp_http_referer" value="/my-account/lost-password/">
 </form>
 </div>
 
@@ -375,49 +374,67 @@ var _zxcvbnSettings = {"src":"https:\/\/dcmaticshare.github.io\/landelijke\/wp-i
 		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
 		document.body.className = c;
 	</script>
-	<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"></script>
-<script type="text/javascript">
+	<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/dcmaticshare.github.io\/landelijke\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/contact-form-7/includes/js/scripts.js" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js" id="jquery-blockui-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
 /* <![CDATA[ */
 var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Winkelmand bekijken","cart_url":"https:\/\/dcmaticshare.github.io\/landelijke\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js" id="wc-add-to-cart-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js" id="selectWoo-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-includes/js/dist/vendor/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wp-polyfill-js-after">
+( 'fetch' in window ) || document.write( '<script src="https://dcmaticshare.github.io/landelijke/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0">' + 'ipt>' );( document.contains ) || document.write( '<script src="https://dcmaticshare.github.io/landelijke/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0">' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://dcmaticshare.github.io/landelijke/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0">' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://dcmaticshare.github.io/landelijke/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4">' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://dcmaticshare.github.io/landelijke/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12">' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://dcmaticshare.github.io/landelijke/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2">' + 'ipt>' );
+</script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-includes/js/dist/i18n.min.js" id="wp-i18n-js"></script>
+<script type="text/javascript" id="password-strength-meter-js-extra">
 /* <![CDATA[ */
 var pwsL10n = {"unknown":"Sterkte wachtwoord onbekend","short":"Erg zwak","bad":"Zwak","good":"Gemiddeld","strong":"Sterk","mismatch":"Verkeerde combinatie"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-admin/js/password-strength-meter.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" id="password-strength-meter-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2020-08-12 08:13:57+0000","generator":"GlotPress\/3.0.0-alpha.2","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl_BE"},"%1$s is deprecated since version %2$s! Use %3$s instead. Please consider writing more inclusive code.":["%1$s is verouderd sinds versie %2$s! Gebruik in plaats daarvan %3$s. Overweeg om meer inclusieve code te schrijven."]}},"comment":{"reference":"wp-admin\/js\/password-strength-meter.js"}} );
+</script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-admin/js/password-strength-meter.min.js" id="password-strength-meter-js"></script>
+<script type="text/javascript" id="wc-password-strength-meter-js-extra">
 /* <![CDATA[ */
 var wc_password_strength_meter_params = {"min_password_strength":"3","stop_checkout":"","i18n_password_error":"Een sterker wachtwoord invoeren.","i18n_password_hint":"Hint: het wachtwoord moet minimaal twaalf tekens lang zijn. Gebruik hoofd- en kleine letters, nummers en tekens zoals ! \" ? $ % ^ & ) om het sterker te maken."};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js" id="wc-password-strength-meter-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js" id="js-cookie-js"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
 /* <![CDATA[ */
 var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/frontend/lost-password.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js" id="woocommerce-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/frontend/lost-password.min.js" id="wc-lost-password-js"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
 /* <![CDATA[ */
 var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_2f6f7c3b06973879b9efb5c3be22b167","fragment_name":"wc_fragments_2f6f7c3b06973879b9efb5c3be22b167","request_timeout":"5000"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-includes/js/hoverIntent.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js" id="wc-cart-fragments-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search.js" id="flatsome-live-search-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-includes/js/hoverIntent.min.js" id="hoverIntent-js"></script>
+<script type="text/javascript" id="flatsome-js-js-extra">
 /* <![CDATA[ */
 var flatsomeVars = {"ajaxurl":"https:\/\/dcmaticshare.github.io\/landelijke\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"70","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/themes/flatsome/assets/js/flatsome.js"></script>
-<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/themes/flatsome/assets/js/woocommerce.js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/themes/flatsome/assets/js/flatsome.js" id="flatsome-js-js"></script>
+<script type="text/javascript" src="https://dcmaticshare.github.io/landelijke/wp-content/themes/flatsome/assets/js/woocommerce.js" id="flatsome-theme-woocommerce-js-js"></script>
 
 </body>
 </html>
